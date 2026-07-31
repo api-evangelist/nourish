@@ -1,8 +1,28 @@
 aid: nourish
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nourish.png
 name: Nourish
-description: 'Nourish is a company surfaced as a portfolio company of index-ventures, menlo-ventures,
-  susa-ventures and added to the API Evangelist network as a stub for enrichment. Sector: healthcare.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'Nourish is a virtual nutrition-counseling telehealth platform that connects
+  patients with Registered Dietitian Nutritionists (RDNs) through insurance-covered
+  video appointments in all 50 states. Its network of more than 10,000 dietitians
+  supports conditions including diabetes, eating disorders, heart health, and gut
+  health, and a companion mobile app handles meal and goal tracking, secure messaging,
+  lab-work review, and between-session support. Nourish verifies insurance and submits
+  claims on the patient''s behalf, with the company reporting that 94% of patients
+  pay $0 out of pocket. Backed by Index Ventures, Menlo Ventures, and Susa Ventures,
+  the company raised a $100M Series C. Nourish exposes a consumer marketing and
+  patient-app surface only; no public developer API, SDKs, or API documentation are
+  published at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/nourish/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Nutrition
+- Dietitian
+- Telehealth
+- Digital Health
+- Insurance
+- Wellness
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +53,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.nourish.com/
+- type: Blog
+  url: https://www.nourish.com/blog
+- type: PrivacyPolicy
+  url: https://www.nourish.com/privacy
+- type: TermsOfService
+  url: https://www.nourish.com/terms
+- type: LLMsTxt
+  url: llms/nourish-llms.txt
+- type: DomainSecurity
+  url: security/nourish-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
